@@ -68,7 +68,7 @@ public class DoctorDetailsController {
 	public ResponseEntity<DoctorDetailsModel> delteDetails(@PathVariable("id") int id){
 		try {
 			drepo.deleteById(id);
-			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+			return new ResponseEntity<>(HttpStatus.OK);
 		}catch(Exception ex){
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
