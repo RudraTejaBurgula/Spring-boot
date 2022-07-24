@@ -1,0 +1,3 @@
+[submodule "spring-cloud-config-server/git-localconfig-repo"]
+	path = spring-cloud-config-server/git-localconfig-repo
+	url = https://github.com/RudraTejaBurgula/Spring-boot.git
